@@ -1,0 +1,22 @@
+All done. Find all you need to connect in the fast-ai-commands.txt file and to remove the stack call fast-ai-remove.sh
+
+InstanceUrl ec2-52-210-44-246.eu-west-1.compute.amazonaws.com
+Connect to your instance: ssh -i /home/pavel/.ssh/aws-key-fast-ai.pem ubuntu@ec2-52-210-44-246.eu-west-1.compute.amazonaws.com
+
+tmux
+tmux ls
+tmux a -t name
+tmux new -s name
+Ctrl+b ?
+Ctrl+b Up
+Ctrl+b + Up
+Ctrl+b + %
+Ctrl+b + "
+
+Ctrl+b + d
+Ctrl+b d
+
+
+jupyter notebook
+Shift+Enter - Execute line
+Ctrl+c, Ctrl+c - Close notebook
